@@ -1,0 +1,113 @@
+body {
+  background-color: #d1f3e7;
+}
+.form {
+  background: #fff;
+  width: 500px;
+  box-shadow: 0px 30px 60px 0px rgba(90, 116, 148, 0.4);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 5px;
+  border-top: 5px solid #0e3721;
+  animation: bounce 1.5s infinite;
+}
+::-webkit-input-placeholder {
+  font-size: 1.3em;
+}
+.title {
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 2px;
+  width: 300px;
+}
+.termsConditions {
+  margin: 50px auto 5px 80px;
+}
+.pageTitle {
+  font-size: 2em;
+  font-weight: 700;
+}
+.secondaryTitle {
+  color: grey;
+}
+.name {
+  background-color: #ebebeb;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.name:hover {
+  border-bottom: 5px solid #0e3721;
+  border-radius: 20px;
+  height: 30px;
+  width: 380px;
+  transition: ease-in-out 0.5s;
+}
+.email {
+  background-color: #ebebeb;
+  color: white;
+  height: 2em;
+  border-radius: 10px;
+  border: none;
+}
+.email:hover {
+  border-bottom: 5px solid #0e3721;
+  border-radius: 20px;
+  width: 380px;
+  transition: ease-in-out 0.5s;
+}
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  min-width: 300px;
+  transition: all 0.5s ease 0s;
+}
+.message {
+  background-color: #ebebeb;
+  color: white;
+  /* must ditei hobe */
+  overflow: hidden;
+  /* must ditei hobe */
+  height: 8rem;
+  border-radius: 10px;
+  border: none;
+}
+.message:hover {
+  border-bottom: 5px solid #0e3721;
+  width: 380px;
+  transition: ease-in-out 0.7s;
+  border-radius: 20px;
+  
+}
+
+.submit {
+  color: white;
+  background-color: #0e3721;
+  font-size: 20px;
+}
+.submit:hover{
+  box-shadow: 10px 10px 10px 3px #0e3721;
+  transform: translateY(-3px);
+  width: 300px;
+  border-top: 5px solid #0e3721;
+  border-radius: 10px;
+}
+
+
+
+@keyframes bounce {
+  0% {
+    tranform: translate(0, 3px);
+  }
+  90%{
+    transform: translate(0, 30px);
+  }
+  } 
